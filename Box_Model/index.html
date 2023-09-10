@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <div class="mx-10">hello world</div>
+    <!--Negative Margin-->
+    <div class="-mx-96">hello world</div>
+
+    <!--Space Between-->
+    <!--Not Applied to first item-->
+    <div>
+      <ul class="flex space-x-5 space-y-4">
+        <li>Home</li>
+        <li>About</li>
+        <li>Contact</li>
+      </ul>
+    </div>
+
+    <!--Border-->
+    <!--Rounded used for border radius-->
+    <div
+      class="w-20 mx-8 p-5 bg-red-700 text-white font-extrabold rounded-3xl border-2 border-black border-dotted"
+    >
+      Levis
+    </div>
+
+    <!--Divide Classes-->
+    <!--Utilities for controlling the border width between elements.-->
+    <div class="divide-x-1">
+      <div class="border-2 border-red-800">Hello</div>
+      <div>Brother</div>
+      <div>How r u</div>
+    </div>
+  </body>
+</html>

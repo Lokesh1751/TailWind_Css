@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* by using layer we define that after which layer between base, components and utilities the class is defined */
+@layer components {
+    .btn {
+        @apply text-white bg-black p-3 rounded-[10px] cursor-pointer hover: bg-blue-200 hover:text-black
+    }
+}
+
+@layer utilities {
+    .btn1 {
+        @apply text-white bg-black p-3 rounded-[10px] cursor-pointer hover: bg-blue-200 hover:text-black
+    }
+}

@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+
+.btn {
+    @apply bg-yellow-400 text-white p-4 m-10 rounded-[25px] hover: bg-yellow-500 cursor-pointer
+}
+
+.txt-vic {
+    @apply text-yellow-600 bg-red-500;
+}
+//firstly these classes come and then utitlities class will work
+@tailwind utilities;
